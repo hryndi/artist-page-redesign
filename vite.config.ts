@@ -11,5 +11,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "https://saram7619.github.io/musical-artist-redesign/",
+  base: "/musical-artist-redesign/",
 });
