@@ -6,10 +6,10 @@ import path from "path";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/musical-artist-redesign/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  base: "https://saram7619.github.io/musical-artist-redesign/",
 });
